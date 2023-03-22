@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.App-card {
+  display: flex;
+  flex-direction: row;
+  margin: 150px;
+}

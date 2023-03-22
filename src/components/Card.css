@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 235;
+    border: 1px solid white;
+
+}
+
+.card-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 45px;
+    color: white;
+    background-color:#419BAA;
+    border: 1px solid white;
+}
+
+.card-price {
+    width: 250px;
+    height: 125px;
+    color: white;
+    background-color:#53BFD2;
+    border: 1px solid white;
+}
+.card-speed {
+    display: flex;
+    width: 250px;
+    height: 75px;
+    color: #696E72;
+    background-color:#F8F8F8;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-condition {
+    display: flex;
+    width: 250px;
+    height: 80px;
+    color: #696E72;
+    background-color:#EEEEEE;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+    padding-top: 30px;
+
+}
+
+  .price {
+    font-size: 69px;
+  }
+
+  .priceTextHigh {
+    align-self: flex-start;
+  }
+
+.card-condition {
+    font-size: 14px;
+}
